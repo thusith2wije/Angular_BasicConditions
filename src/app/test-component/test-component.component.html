@@ -1,0 +1,26 @@
+<h1 [class]="titleClass">
+  {{title}}
+</h1>
+
+<p>{{ myObject.age }}</p>
+  <p>{{ myObject.location }}</p>
+  <p>{{ myObject.gender }}</p>
+
+  <p>
+    <img src="{{angularLogo}}">
+  </p>  
+  <br>
+  <p [style.color]="ABC ? 'yellow':'green'">
+      <li *ngIf="myArr; else otherTmpl">Yeah, I exist.</li>
+      <li *ngFor="let arr of myArr">{{ arr }}</li>
+  </p> 
+  <p [ngClass]="ABCD">
+    Hello, Hello
+</p>  
+  <button [disabled]="buttonStatus">My Button</button>
+  <button [disabled]="buttonStatus_1 == 'enabled'">My Button</button>
+
+  <br>
+  <button (click)="myEvent($event)">My Button</button>
+
+  

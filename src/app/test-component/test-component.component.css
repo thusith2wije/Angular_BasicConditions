@@ -1,0 +1,13 @@
+h1 {
+    text-decoration:underline;
+}
+.red-title {
+  color:rgb(195, 0, 255);
+}
+.b-title{
+    color: rgb(204, 243, 31);
+   font-size: 6em;
+ }
+ .c-title{
+    text-decoration:underline;   
+ }
